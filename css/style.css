@@ -16,3 +16,150 @@
 .height-100{
     height: 100%;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dashed-border{
+    border: 2px dashed black;
+}
+
+.dashed-border-white{
+    border: 2px dashed white;
+}
+
+.background-gold{
+    background-color: #d9a420;
+}
+
+.background-gray{
+    background-color: #d2d2d2;
+}
+
+.background-pastel-pink{
+    background-color: #feb5c0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.15rem;
+}
+
+header{
+    background-color: #acd7e5;
+    /* padding-bottom: 5px; */
+}
+
+header section.upper{
+    height: 80px;
+}
+
+section.upper{
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+section.upper>div{
+    width: 20%;
+    padding: .5rem 1rem;
+}
+
+section.upper nav {
+    width: 60%;
+}
+
+section.upper nav ul{
+    list-style-type: none;
+    padding: .5rem 1rem;
+    justify-content: center;
+}
+
+section.upper nav ul li{
+    margin-right: .5rem;
+}
+
+section.upper div.login{
+    text-align: right;
+}
+
+header section.jumbotron{
+    background-color: #00008a;
+    /* height: 550px; */
+    padding: 4rem 0;
+}
+
+section.jumbotron .hero{
+    background-color: #ed81ed;
+    height: 400px;
+    width: 75%;
+}
+
+main>section{
+    padding: 4rem 0;
+}
+
+/* TODO Rimuovere dopo i contenuti*/
+main section div.blue-column,
+main section div.pink-column,
+main section div.big-column{
+    height: 500px;
+}
+
+main section div.blue-column{
+    background-color: #1c87f0;
+    width: 60%;
+}
+
+main section div.pink-column{
+    background-color: #f1b5c0;
+    width: 40%;
+}
+
+main section div.big-column{
+    background-color: #1e7b1e;
+    width: 100%;
+    height: 800px;
+}
+
+footer{
+    background-color: #23272a;
+    padding-top: 1rem;
+}
+
+footer section.footer-top{
+    height: 700px;
+}
+
+footer div.main-column{
+    background-color: #ef7f7f;
+    width: 30%;
+}
+
+footer div.footer-columns{
+    width: 70%;
+}
+
+footer div.secondary-column{
+    background-color: #20b1a9;
+    width: calc(100% / 4);
+}
+
+footer section.footer-bottom{
+    background-color: #7ffed3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer section .logo-wrapper,
+footer section .button-wrapper{
+    padding: .5rem;
+}
